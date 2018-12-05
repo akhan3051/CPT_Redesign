@@ -1,0 +1,40 @@
+.content-wrapper {
+	width  : 100%;
+	margin : 10px auto;
+}
+
+.newsletter-signup-header {
+	display         : flex;
+	align-items     : center;
+	justify-content : flex-end;
+}
+
+.subscribe-logo {
+	width : 180px;
+}
+
+.header-logo {
+	height              : 107px;
+	background          : url(../images/cpt-header-logo.png) no-repeat;
+	background-size     : contain;
+	background-position : 47%;
+}
+
+.main-navigation {
+	background : #000000;
+	clear      : both;
+	display    : block;
+	float      : left;
+	position   : sticky;
+	top        : 0;
+	width      : 100%;
+}
+
+.main-navigation .pure-menu-link {
+	padding : 20px;
+	color   : #ffc10e;
+}
+
+.main-navigation .pure-menu-list {
+	/* margin-left: 50px; */
+}
