@@ -1,0 +1,32 @@
+.text-center {
+	text-align:center;
+}
+
+.single-post-page .site-container {
+	width: 1260px;
+	margin: 0 auto;
+}
+.pre-article-ad {
+	margin-bottom: 2em;
+}
+.nl-signup-link a {
+	text-decoration : none;
+	color : #ffc10e;
+}
+
+.pre-article-ad img {
+	margin: 0 auto;
+}
+
+.opening-content {
+	margin-bottom: 2em;
+}
+
+.social-share{
+	margin-top: 2.5em;
+}
+
+.post-content{
+	padding: 1em 1.5em;
+	box-shadow: 0px 2px 4px #888888;
+}
