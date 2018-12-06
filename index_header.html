@@ -12,12 +12,19 @@
 </head>
 <body>
 <header class="header">
-    <div class="pure-g content-wrapper">
+    <div class="content-wrapper">
+        <div class="hamburger-mobile desktop-hide">
+            <div class="hamburger">
+                <div class="hamburger-menu"></div>
+                <div class="hamburger-menu"></div>
+                <div class="hamburger-menu"></div>
+            </div>
+        </div>
         <div class="pure-u-1-5 header-logo">
         </div>
-        <div class="pure-u-1-4">
+        <div class="pure-u-1-4 mobile-hide">
         </div>
-        <div class="pure-u-1-2 newsletter-signup-header">
+        <div class="pure-u-1-2 newsletter-signup-header mobile-hide">
             <a class="subscribe-header" target="_blank" rel="noopener"
                href="https://www.constructionprotips.com/newsletters/">
                 <img class="subscribe-logo initial loaded" alt="Subscribe"
@@ -25,25 +32,30 @@
                      data-was-processed="true">
             </a>
         </div>
+        <div class="search-mobile desktop-hide">
+            <button class="search-button"></button>
+        </div>
     </div>
     <nav class="main-navigation">
         <div class="pure-menu pure-menu-horizontal">
-            <div class="hamburger">
-                <div class="hamburger-menu"></div>
-                <div  class="hamburger-menu"></div>
-                <div  class="hamburger-menu"></div>
+            <div class="hamburger-wrapper mobile-hide">
+                <div class="hamburger">
+                    <div class="hamburger-menu"></div>
+                    <div class="hamburger-menu"></div>
+                    <div class="hamburger-menu"></div>
+                </div>
+                <span class="menu-text">MENU</span>
             </div>
-            <span class="menu-text">MENU</span>
             <ul class="pure-menu-list">
                 <li class="pure-menu-item"><a href="#" class="pure-menu-link">ABOUT US</a></li>
                 <li class="pure-menu-item"><a href="#" class="pure-menu-link">NEWS</a></li>
                 <li class="pure-menu-item"><a href="#" class="pure-menu-link">ONLINE ACCESS</a></li>
             </ul>
-            <div class="search-form">
+            <div class="search-form mobile-hide">
                 <form class="pure-form">
                     <fieldset>
                         <input type="text" placeholder="Serach">
-                        <button type="submit" class="pure-button search-button"></button>
+                        <button class="search-button"></button>
                     </fieldset>
                 </form>
             </div>
