@@ -1,36 +1,36 @@
-.article-page * {
+.archive-page * {
 	font-family: OpenSans,Arial,Helvetica,sans-serif;
 	font-size: 18px;
 	line-height: 29px;
 	color: #444444;
 }
-.article-page .pure-g {
+.archive-page .pure-g {
 	letter-spacing: normal;
 }
-.article-page a {
+.archive-page a {
 	text-decoration: none;
 }
 
-.article-page h2 {
-	font-size: 38px;
-	line-height: 48px;
+.archive-page h3{
+	font-size: 30px;
+	line-height: 40px;
 }
 
-.article-page h5 {
+.archive-page h5 {
 	font-size: 20px;
 	margin: 10px auto;
 }
 
-.article-page img {
+.archive-page img {
 	max-width: 100%;
 }
 
-.article-page ul {
+.archive-page ul {
 	padding-left: 0;
 	list-style-type: none;
 }
 
-.article-page .newsletter-signup {
+.archive-page .newsletter-signup {
 	color: #ffeb3e;
 	height: 20px;
 	text-align: center;
@@ -41,7 +41,7 @@
 	background-image: linear-gradient(45deg, #eae8e8f2 25%, transparent 25%), linear-gradient(-45deg, #eae8e8f2 25%, transparent 25%), linear-gradient(45deg, transparent 100%, #eae8e8f2 100%), linear-gradient(-45deg, transparent 100%, #eae8e8f2 100%);
 }
 
-.article-page .advertisement, .newsletter-signup-form {
+.archive-page .advertisement, .newsletter-signup-form {
 	text-align: center;
 	padding: 100px 0;
 	background: aliceblue;
@@ -49,70 +49,73 @@
 	margin: 10px 0;
 }
 
-.article-page .breadcrumbs, .breadcrumbs a {
+.archive-page .breadcrumbs, .breadcrumbs a {
 	font-weight: 600;
 	color: #8E6900;
 	text-decoration: none;
 }
 
-.article-page .archive-headings {
+.archive-page .archive-headings {
 	text-align: center;
 	width: 100%;
 }
 
-.article-page .hero-container {
+.archive-page .hero-container {
 	border: 1px solid #80808054;
 	margin: 10px;
 	margin-bottom: 10px;
 }
 
-.article-page .hero-container img {
+.archive-page .hero-container img {
 	width: 100%;
 	height: 100%;
 }
 
-.article-page .hero-container .hero-text {
+.archive-page .hero-container .hero-text {
 	padding: 0 30px;
 }
 
-.article-page .archive-content {
+.archive-page .archive-content {
 	margin: 0 auto;
 	max-width: 1260px;
 }
-.article-page .featured-posts {
+.archive-page .featured-posts {
 	display: flex;
 	margin: 0 5px;	
 }
-.article-page .featured-container {
+.archive-page .featured-container {
 	box-shadow: 0 2px 7px 0 hsla(0,0%,57%,.35);
 	width: calc(33% - 10px);
 	margin: 0 5px;
 }
 
-.article-page .recipes {
+.archive-page .recipes {
 	margin: 10px;
 }
 
-.article-page .single-recipe {
+.archive-page .single-recipe {
 	margin: 5px;
 	box-shadow: 0 2px 7px 0 hsla(0,0%,57%,.35);
 	height: 100%;
 }
 
-.article-page .single-recipe img{
+.archive-page .single-recipe img{
 	width: 100%;
 }
 
-.article-page .recipe-content {
+.archive-page .recipe-content {
 	padding-left: 10px;
 	text-overflow: ellipsis;
 }
 
 @media screen and (max-width: 567px) {
-	.article-page .featured-container {
+	.archive-page .hero-container .hero-text {
+		padding: 0 10px;
+	}
+	.archive-page .featured-container {
 		flex: 1 0 calc(80% - 10px);
 	}
-	.article-page .featured-posts {
+	.archive-page .featured-posts {
 		overflow-x: scroll;
 	}
 }
