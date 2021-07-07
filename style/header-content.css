@@ -1,0 +1,120 @@
+.content-wrapper {
+	width       : 100%;
+	margin      : 10px auto;
+	display     : flex;
+	align-items : center;
+}
+
+.newsletter-signup-header {
+	display         : flex;
+	justify-content : flex-end;
+}
+
+.subscribe-logo {
+	width : 180px;
+}
+
+.header-logo {
+	height              : 107px;
+	background          : url(../images/cpt-header-logo.png) no-repeat;
+	background-size     : contain;
+	background-position : 55%;
+}
+
+.main-navigation {
+	background : #000000;
+	clear      : both;
+	display    : block;
+	float      : left;
+	position   : sticky;
+	top        : 0;
+	width      : 100%;
+	display    : flex;
+}
+
+.main-navigation .pure-menu-link {
+	padding : 15px;
+	color   : #ffc10e;
+}
+
+.main-navigation .pure-menu, .hamburger-wrapper {
+	display : flex;
+}
+
+.hamburger-menu {
+	width            : 30px;
+	height           : 2px;
+	background-color : #ffc10e;
+	margin           : 6px 0;
+}
+
+.hamburger {
+	padding : 10px 20px 0 20px;
+}
+
+.hamburger:hover {
+	cursor : pointer;
+}
+
+.menu-text {
+	color        : #ffc10e;
+	padding      : 16px 20px 0 0;
+	border-right : 1px solid;
+}
+
+.search-button {
+	background-image    : url(../images/search-icon-light.svg);
+	background-size     : 18px 18px;
+	background-repeat   : no-repeat;
+	background-position : 50%;
+	width               : 40px;
+	height              : 40px;
+	background-color    : transparent;
+	color               : black;
+	vertical-align      : middle;
+	border              : none;
+}
+
+.search-form {
+	display      : flex;
+	position     : static;
+	top          : auto;
+	right        : 27px;
+	margin-left  : auto;
+	margin-right : 30px;
+}
+
+.search-form fieldset {
+	padding : 5px 0 5px 0;
+}
+
+/*
+ till tablet sizes styles
+*/
+@media (max-width : 767px) {
+	.mobile-hide {
+		display : none;
+	}
+
+	.header-logo {
+		margin : 0 70px;
+	}
+
+	.hamburger-mobile .hamburger > .hamburger-menu {
+		background-color : #000000;
+	}
+
+	.search-mobile .search-button {
+		background-image : url(../images/search-icon.svg);
+	}
+
+	.header-logo {
+		height : 60px;
+	}
+}
+
+@media (min-width : 767px) {
+	.desktop-hide {
+		display : none;
+	}
+}
